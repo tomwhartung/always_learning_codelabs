@@ -3,6 +3,7 @@
 # References
 
 - AMP Validation: https://www.ampproject.org/docs/fundamentals/validate
+- Valid CSS: https://www.ampproject.org/docs/design/responsive/style_pages
 
 # Steps
 
@@ -43,9 +44,64 @@ vi article.amp.html
 
 ## Step 5: Resolve validation errors
 
-### Step 5.1: Add amp project js file
+### Charset required:
 
+- Add this line to just after the `head` tag:
+  - `<meta charset="utf-8" />`
 
+### AMP files are required to have a `<link rel=canonical>` tag:
+
+- Add this line to just after the `meta` tag just added:
+  - `<link rel="canonical" href="/article.amp.html">`
+
+### AMP attribute required:
+
+- Add `⚡` or `amp` to the `html` tag, as in the following line:
+  - `<html ⚡ lang="en">`
+
+### Viewport required
+
+- Add this line to just after the `meta` tag added previously:
+  - `<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">`
+
+### External stylesheets
+
+- Replace the `link` tag for the external style sheet, i.e.,
+  - `<link href="base.css" rel="stylesheet" />`
+- with the following style opening and closing tags containing the contents of the `base.css` file
+  - `<style amp-custom>`
+  - `[entire contents of base.css]`
+  - `</style>`
+
+### Third-Party JavaScript
+
+- Remove the following line (there is actually no javascript in the file!):
+  - `<script type="text/javascript" src="base.js"></script>`
+
+### The AMP CSS boilerplate
+
+- Add the following line to just before the closing `</head>` tag:
+  - <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+### The amp-img tag
+
+- Replace the `<img ...` tag with the following `<amp-img ...` tag:
+  - `<amp-img src="mountains.jpg"></amp-img>`
+- **Note:** this fixes one error but causes two new errors, and the image has disappeared!
+- To fix these errors, continue with the next section
+
+### Layout System
+
+- Add the following `width` and `height` attributes to the `amp-img` tag:
+  - `width="266" height="150"`
+- **Note:** this fixes the remaining errors!
+- However the image does not look that great in the web view
+- Add the following `layout` attribute to the `amp-img` tag:
+  - `layout="responsive"`
+
+### AMP validation successful.
+
+- Verify the developer tools console contains the message: "AMP validation successful."
 
 
 
