@@ -1,0 +1,22 @@
+#
+# Documentation is here: http://git-scm.com/docs/gitignore
+#
+tmp/
+unpack/
+
+#
+# For vim temporary files
+#
+*.swp
+.~lock.*
+.*~
+*~
+
+#
+# Level 2 code lab: starting to use npm
+#
+npm-debug.log
+#
+# Level 2 code lab: cloned repo for the base files
+#
+codelabs-nodejs
