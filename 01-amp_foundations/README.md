@@ -4,6 +4,7 @@
 
 - AMP Validation: https://www.ampproject.org/docs/fundamentals/validate
 - Valid CSS: https://www.ampproject.org/docs/design/responsive/style_pages
+- Structured Data Validation Tool: https://developers.google.com/structured-data/testing-tool/
 
 # Steps
 
@@ -102,6 +103,19 @@ vi article.amp.html
 ### AMP validation successful.
 
 - Verify the developer tools console contains the message: "AMP validation successful."
+
+## Step 6: Canonical URLs, Meta Data & Search
+
+### 6.1: Linking Canonical Pages and AMP Documents
+
+**Important:**
+> ... since AMP is focused on static content at this time, it is recommended to focus only on generating AMP documents for the article pages of your website. It is not necessary to generate AMP documents for the home page, category pages, or FAQ pages of a website.
+
+### 6.2: Schema.org Search Engine Meta Data
+
+- Add json for schema.org meta data
+- Paste file into the Structured Data Validation Tool:
+  - https://developers.google.com/structured-data/testing-tool/
 
 
 
