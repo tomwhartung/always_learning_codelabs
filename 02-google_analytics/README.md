@@ -3,14 +3,16 @@
 # References
 
 - Test the download and rendering speed of your site: http://www.webpagetest.org/
+- Home page of MDN's User Timing API: https://developer.mozilla.org/en-US/docs/Web/API/User_Timing_API
+- Home page of MDN's Navigation Timing API: https://developer.mozilla.org/en-US/docs/Web/API/Navigation_timing_API
 
 # Steps
 
-## Steps 1-2: Setup
+## Sections 1-2: Setup
 
 - Downloaded sample code into `downloads` directory
 
-## Step 3 - Before you begin
+## Section 3 - Before you begin
 
 ### Asset performance considerations
 
@@ -45,7 +47,7 @@ Images: May take the longest to load
 - Advice:
   - Try to optimize after understanding where the problem areas lie
 
-## Step 4 - Step 0: Viewing the demo page
+## Section 4 - Step 0: Viewing the demo page
 
 After deleting the introductory comments in the downloaded code file:
 
@@ -63,6 +65,15 @@ python -m SimpleHTTPServer
 ```
 
 Access the page at: http://localhost:8000/
+
+## Section 5 - Step 1: Measuring when the CSS is done blocking
+
+- "CSS blocks the rendering of DOM elements as well as the execution of scripts that come after it in the DOM."
+- Use `performance.mark('css:unblock');` from MDN's User Timing API to learn when CSS is done blocking
+- Reloading page takes a long time, because an image is missing
+- Console output, once it finally stops loading:
+  - CSS unblock 69.19999999692664
+
 
 
 
