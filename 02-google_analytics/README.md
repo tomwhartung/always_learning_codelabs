@@ -82,6 +82,18 @@ Access the page at: http://localhost:8000/
 - Create promise to log message to console when fonts are loaded
   - Update code in `perf-analytics.js`
 
+## Section 7 - Step 3: Measuring when images are visible
+
+- Modern browsers have a preload scanner
+  - Before constructing the DOM, it scans the HTML looking for assets it can download immediately
+- When the image is added to the DOM:
+  - if it is present, then it becomes visible immediately,
+  - else it fires an `onload` event when it becomes visible
+- Must add timing marks for both cases:
+  - Call performance.mark in a script tag that appears in the DOM after all img tags (covers case when preload scanner loaded image)
+  - Call performance.mark when the onload event fires for each image (covers case when image is loaded after appearing n DOM)
+- `performance.measure` always uses the last timing mark set
+  - Using the last timing mark allows us to determine when all images are visible on the page
 
 
 
