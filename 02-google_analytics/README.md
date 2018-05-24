@@ -74,6 +74,13 @@ Access the page at: http://localhost:8000/
 - Console output, once it finally stops loading:
   - CSS unblock 69.19999999692664
 
+## Section 6 - Step 2: Measuring when web fonts are active
+
+- "update the main document to use `webfont.js` to load the fonts"
+  - Update code in `index.html`
+  - Note: code calls `performance.mark('fonts:active');`
+- Create promise to log message to console when fonts are loaded
+  - Update code in `perf-analytics.js`
 
 
 
