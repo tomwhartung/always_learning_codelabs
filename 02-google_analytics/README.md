@@ -154,4 +154,13 @@ Takeaways:
   - Reports (in left navigation) -> Behavior -> Site Speed -> User Timings
   - URL given (but wtf?) https://support.google.com/analytics/answer/1205784?hl=en#UserTimings
 
+## Section 11. Next Steps
+
+- It is easy to track more metrics
+- For best results, consider setting up the metrics needed to answer a question
+- Some example questions that monitoring of the appropriate metrics can answer:
+  - Are the values of the metrics your tracking decreasing or increasing over time?
+  - How would the use of offline caching via service worker or local storage affect the overall performance of your site?
+  - Are your resources being loaded optimally?
+  - Are there any correlations between performance and other metrics you're tracking (e.g. sign-up rate, time on site, purchases, etc)?
 
