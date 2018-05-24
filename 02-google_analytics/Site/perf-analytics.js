@@ -3,6 +3,7 @@ window.onload = function() {
   measureCssUnblockTime();
   measureWebfontPerfAndFailures();
   measureImagesVisibleTime();
+  measureJavaSciptExecutionTime();
 };
 
 
@@ -61,6 +62,16 @@ function measureWebfontPerfAndFailures() {
  */
 function measureImagesVisibleTime() {
   console.log('Images', 'visible', measureDuration('img:visible'));
+}
+
+
+/**
+ * Calculates the time duration between the responseEnd timing event and when
+ * all synchronous JavaScript files have been downloaded and executed, then
+ * logs that value to the console.
+ */
+function measureJavaSciptExecutionTime() {
+  console.log('JavaScript', 'execute', measureDuration('js:execute'));
 }
 
 
