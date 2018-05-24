@@ -5,6 +5,9 @@
 - Test the download and rendering speed of your site: http://www.webpagetest.org/
 - Home page of MDN's User Timing API: https://developer.mozilla.org/en-US/docs/Web/API/User_Timing_API
 - Home page of MDN's Navigation Timing API: https://developer.mozilla.org/en-US/docs/Web/API/Navigation_timing_API
+- About google's `analytics.js` javascript library: https://developers.google.com/analytics/devguides/collection/analyticsjs/
+- Debug version of `analytics.js`: https://developers.google.com/analytics/devguides/collection/analyticsjs/debugging
+- About using `analytics.js` to measure timings: https://developers.google.com/analytics/devguides/collection/analyticsjs/user-timings
 
 # Steps
 
@@ -110,6 +113,33 @@ Access the page at: http://localhost:8000/
   - Before calling `performance.mark`, ensure `__perf` is set:
   - `<img onload="__perf && performance.mark('img:visible')" src="...`
 - Make these changes in `perf-analytics.js`:
-  -
+  - Update function measureDuration to check `window.__perf` before doing anything
+  - Update function measureWebfontPerfAndFailures to check for `window.Promise` before calling it
 
+## Section 10 - Step 6: Capturing these measurements in Google Analytics
 
+- Page must have the Google Analytics tracking snippet
+  - Update `index.html` with the tracking snippet
+- Must also include google's `analytics.js` javascript library
+  - Code snippet for this step uses the debug version, `analytics)debug.js`
+- To send timing data to Google Analytics:
+  - `ga('send', 'timing', timingCategory, timingVar, timingValue);`
+- Update function `measureDuration` in `perf-analytics.js` to:
+  - Ensure the new `window.__perf` variable is set (see the last step)
+  - Return a value rounded to an integer
+- Update function `measureCssUnblockTime` in `perf-analytics.js` to:
+  - Log the css unblock time only if there's a value
+  - Call the `ga` function to log the timing data - instead of logging it to the console
+- Update function `measureWebfontPerfAndFailures` in `perf-analytics.js` to:
+  - Log the css unblock time only if there's a value
+  - Call the `ga` function to log the timing data - instead of logging it to the console
+- Update function `measureImagesVisibleTime` in `perf-analytics.js` to:
+  - Log the css unblock time only if there's a value
+  - Call the `ga` function to log the timing data - instead of logging it to the console
+- Update function `measureJavaSciptExecutionTime` in `perf-analytics.js` to:
+  - Log the css unblock time only if there's a value
+  - Call the `ga` function to log the timing data - instead of logging it to the console
+- Update function `measureWebfontPerfAndFailures` in `perf-analytics.js` to:
+  - Call the `ga` function to log an error loading the fonts, rather than log it to the console
+  - I.e., replace the `console.log` statement in the `catch` clause to the following:
+  - `ga('send', 'event', 'Fonts', 'error');`
