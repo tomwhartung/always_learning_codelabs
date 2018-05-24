@@ -143,3 +143,15 @@ Access the page at: http://localhost:8000/
   - Call the `ga` function to log an error loading the fonts, rather than log it to the console
   - I.e., replace the `console.log` statement in the `catch` clause to the following:
   - `ga('send', 'event', 'Fonts', 'error');`
+
+**Note:** Need to wait a few days before the data will show up.
+Today is 5/24, but I am seeing data only through 5/23 on their site.
+
+Takeaways:
+- The google analytics debug script logs a great many details to the console
+- There is also a bit of information visible under the Network tab in the developer's tools window
+- How to view the User Timings Report:
+  - Reports (in left navigation) -> Behavior -> Site Speed -> User Timings
+  - URL given (but wtf?) https://support.google.com/analytics/answer/1205784?hl=en#UserTimings
+
+
