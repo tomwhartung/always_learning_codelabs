@@ -24,6 +24,7 @@ function measureCssUnblockTime() {
  * is logged to the console.
  */
 function measureWebfontPerfAndFailures() {
+  if (window.Promise) {
   new Promise(function(resolve, reject) {
     // The classes `wf-active` or `wf-inactive` are added to the <html>
     // element once the fonts are loaded (or error).
@@ -52,6 +53,7 @@ function measureWebfontPerfAndFailures() {
   .catch(function() {
     console.error('Error loading web fonts')
   });
+  }
 }
 
 
@@ -82,9 +84,10 @@ function measureJavaSciptExecutionTime() {
  * @param {string} mark The mark name.
  * @param {string=} opt_reference An optional reference point from the
  *     navigation timing API. Defaults to 'responseEnd'.
- * @return {number} The time duration
+ * @return {?number} The time duration or undefined.
  */
 function measureDuration(mark, opt_reference) {
+  if (window.__perf) {
   var reference = opt_reference || 'responseEnd';
   var name = reference + ':' + mark;
 
@@ -100,4 +103,5 @@ function measureDuration(mark, opt_reference) {
 
   // Returns the measure duration.
   return measure.duration;
+  }
 }
