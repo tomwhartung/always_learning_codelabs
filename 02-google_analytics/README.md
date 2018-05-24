@@ -95,5 +95,13 @@ Access the page at: http://localhost:8000/
 - `performance.measure` always uses the last timing mark set
   - Using the last timing mark allows us to determine when all images are visible on the page
 
+## Section 8 - Step 4: Measuring when JavaScript has finished executing
+
+- Add call to `performance.mark('js:execute');` after the last script tag without the `async` attribute in `index.html`
+- Add function `function measureJavaSciptExecutionTime` , to calculate the duration, to `perf-analytics.js`
+
+
+-
+
 
 
