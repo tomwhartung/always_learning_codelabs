@@ -1,6 +1,8 @@
+
 window.onload = function() {
   measureCssUnblockTime();
   measureWebfontPerfAndFailures();
+  measureImagesVisibleTime();
 };
 
 
@@ -11,6 +13,7 @@ window.onload = function() {
 function measureCssUnblockTime() {
   console.log('CSS', 'unblock', measureDuration('css:unblock'));
 }
+
 
 /**
  * Creates a promise that is resolved once the web fonts are fully load or
@@ -49,6 +52,17 @@ function measureWebfontPerfAndFailures() {
     console.error('Error loading web fonts')
   });
 }
+
+
+/**
+ * Calculates the time duration between the responseEnd timing event and when
+ * all images are loaded and visible on the page, then logs that value to the
+ * console.
+ */
+function measureImagesVisibleTime() {
+  console.log('Images', 'visible', measureDuration('img:visible'));
+}
+
 
 /**
  * Accepts a mark name and an optional reference point in the navigation timing
