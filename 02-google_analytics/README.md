@@ -100,8 +100,16 @@ Access the page at: http://localhost:8000/
 - Add call to `performance.mark('js:execute');` after the last script tag without the `async` attribute in `index.html`
 - Add function `function measureJavaSciptExecutionTime` , to calculate the duration, to `perf-analytics.js`
 
+## Section 9 - Step 5: Handling unsupporting browsers
 
--
-
+- Use feature detection to deal with this
+- Before using the `performance.mark()` method, test for it, to ensure it's available
+- Make these changes in `index.html`:
+  - Include this before calling `performance.mark`:
+  - `<script>window.__perf = window.performance && performance.mark;</script>`
+  - Before calling `performance.mark`, ensure `__perf` is set:
+  - `<img onload="__perf && performance.mark('img:visible')" src="...`
+- Make these changes in `perf-analytics.js`:
+  -
 
 
