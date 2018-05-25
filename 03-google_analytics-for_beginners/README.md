@@ -81,9 +81,47 @@ To get exising tracking id: Admin -> Under Property: Tracking Info -> Tracking C
 
 ## 1.4 How to set up views with filters
 
+[No video for this section.]
 
+### 1.4.1 Demo:
 
+In Google Analytics:
 
+- Admin -> Under View: View Settings ->
+- View Name: Change "All Website Data" to "Raw Data" because it is unfiltered -> Save
+- Set up a test view:
+  - View Selector pull down (top of left nav) -> Create new view
+  - Name: "Test View" -> Create View
+  - Click on View Settings
+  - Check Bot Filtering -> Save
+- Set up a master view - copy test view and rename it:
+  - Copy View (button on the right)
+  - Name: "Master View" -> Copy View
+- Review:
+  - Raw: backup of data
+  - Test: for experimenting
+  - Master: daily reporting and analysis
+- Setup First Filter: internal traffic, filter by IP
+  - Select Test View in pull down (under View column)
+  - Filters -> Add Filter
+  - Name: "Exclude internal traffic"
+  - Predefined (default) -> Select filter type pull down -> Exclude
+  - Select source pull down -> Traffic from the IP addresses
+  - Select expression pull down -> that are equal to
+  - Copy IP address from google query and paste into IP address -> Save
+- Test First Filter: internal traffic, filter by IP
+  - Reporting (at top) -> Real-Time (left nav) -> Overview
+  - May take some time for the filter to take effect
+- Copy filter to Master View:
+  - Admin (at top) -> View pull down -> Master View
+  - Filters -> Add Filter
+  - Select: Apply existing Filter -> Select Filter -> Add -> Save
+
+**Note:** Filters are applied in the order in which they are listed.
+
+## 1.5 Assessment
+
+16/16 - 100%
 
 # 2. The Google Analytics layout
 
