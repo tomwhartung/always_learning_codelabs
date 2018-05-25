@@ -6,7 +6,7 @@ Notes for Part 2 of the Digital Analytics for Beginners class at the Analytics A
 
 ## 2.1 Navigating Google Analytics
 
-[No video for this section.]
+This section has a guided tour instead of a video.
 
 ### 2.1.1 Google Analytics interface tour
 
@@ -28,9 +28,9 @@ Notes for Part 2 of the Digital Analytics for Beginners class at the Analytics A
 
 ## 2.2 Understanding overview reports
 
-[No video for this section.]
+This section has a guided tour instead of a video.
 
-### 2.2.Audience Overview report tour
+### 2.2 Audience Overview report tour
 
 Click on Audience (in the left nav) -> Overview
 
@@ -64,11 +64,36 @@ Click on Audience (in the left nav) -> Overview
 
 ## 2.3 Understanding full reports
 
+This section has a video.
 
+### 2.3.1 Navigating full reports, part 1
+
+- Click on "view full report," which appears under the dimensions section
+- Explorer tab: Summary, Site Usage, Ecommerce
+  - Summary: Acquisitions, Behavior, Conversion
+  - Site Usage: Behavior Metrics like Users, Sessions, New Users, Bounce Rate, Goals (must be configued)
+  - Ecommerce: Transaction Metrics (must set up ecommerce tracking)
+- Summary: can switch between dimensions, and add a secondary dimension
+  - Can add rows, sort by columns, filter rows (e.g., "India")
+  - Can click on "advanced" next to search box to add advanced rules (covered in advanced class)
+  - Next to "advanced," icons to see table, pie chart, performance bar graph, comparison bar graph, pivot table
+  - Data table is default: Acquisitions, Behavior, Conversion
 
 ## 2.4 How to share reports
 
+This section has a guided tour instead of a video.
 
+### 2.4 Save, Share, or Export reports tour
+
+- Buttons near top, to far right of report title (e.g., "Location")
+- Save: creates a link to the report in the Customization area under "Saved Reports"
+- Export: to PDF or CSV file on local computer
+- Share: email report as an attachment, and schedule updates if desired
+- Edit: customize report content with additional metric groups, filters, or additional views
+  - Creates a new report in the Customization Reports section
+  - Covered in an advanced class
+- Hover over the green icon next to report title to see Sampling Rate
+- Can change it, if desired, to "Greater precision" or "Faster response"
 
 ## 2.5 How to set up dashboards and shortcuts
 
