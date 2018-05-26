@@ -21,7 +21,7 @@ For a list of TODOs, see `TODO.md` in this directory.
 
 ## Assessment 1: 16/16 - 100%
 
-## Assessment 2:
+## Assessment 2: 10/10 - 100%
 
 ## Assessment 3:
 
