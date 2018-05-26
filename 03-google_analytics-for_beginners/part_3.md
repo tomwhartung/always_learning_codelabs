@@ -21,6 +21,20 @@ This section has a video.
 - Gain insights into possible marketing strategies
 - To enable:
   - Admin -> Property tab -> Property Settings -> Turn on "Enable Demographics and Interest Reports"
+- Geographical: IP Address gives continent, sub-continent, country, city of user
+  - Geographic heat map at top
+  - Click on Users pull down, above and to the left of the map to change metrics
+  - E.g., New Sessions can help identify new sources of visitors
+  - Also: table below can help, e.g., identify regions with unrealized potential:
+  - E.g., Large audience but low performance (many visits but they do not stay long)
+  - E.g., High bounce rate: consider translating ad or site
+- Behavior reports:
+  - New vs. Returning: Acquisition, Behavior, Conversions
+  - Over time, can reveal how audience is shifting
+- Technology: Browser and OS, Network
+  - High Bounce Rate: can help identify possible issues with site on certain browsers
+- Mobile: Overview and Devices
+  - Can help determine whether site is sufficiently optimized for mobile devices
 
 ### 3.1.2 Complete the activity:
 
@@ -47,13 +61,14 @@ This section has a video.
 - Click Acquisition in the left nav to compare performance of different marketing channels
   - Discover which sources give the highest quality traffic and conversions
 - Tracking code identifies: traffic medium, source, and marketing campaign name
+  - Answer to Assessment Question 4 (!!)
 - Traffic Mediums [sic]:
   - Organic: from non-paid search (google or other search engine)
   - CPC: cost per click - from paid search campaign
   - Referral: from link on another site (NOT a search engine)
   - Email: from email marketing campaign
   - (none): from "Direct" source - user typed url into browser address bar
-- Source: more information, for example:
+- Source: more information about the medium, for example:
   - Referral: source is referring site
   - Organic: source is name of search engine
 - Demo Account -> Acquisition -> All Traffic -> Source/Medium report for August, 2015 (no data??)
@@ -63,9 +78,11 @@ This section has a video.
   - Comparison view -> Bounce Rate metric, compared to site average
 - Filter for traffic from google
   - Notice that traffic from google search has lower bounce rate -> higher quality traffic
-- Demo Account -> Acquisition -> All Traffic -> Channels report
-  - Lists the channels, Direct, Organic search, Referral, etc.
-  - Click into channel to see more specific information
+- Demo Account -> Acquisition -> All Traffic -> Channels report - Lists the channels:
+  - Channels: Organic Search, Social, Direct, Referral, Display, - Answer to Assessment Question 7 (!!)
+  - More channels: Generic Paid Search, Other Paid Search, Branded Paid Search, (Other), Email
+  - Bundles the sources together under each medium
+  - Click into channel to see more specific sources (websites, in this case)
   - Can create custom channel groupings in Google Analytics (covered in advanced class)
 - Demo Account -> Acquisition -> All Traffic -> Referrals report
   - Click into the referring site to see which pages have the link to my site
@@ -120,20 +137,27 @@ This section has a video.
 
 ### 3.3.2 Complete the activity: 3/3 (Finally, felt like I was seeing the right data!)
 
-## 3.4 Assessment 3:
+## 3.4 Assessment 3: 9/10 90%
+
+After five tries, still unable to figure out answer to Question 5:
+
+- 'Which “sources” are available in Google Analytics?'
+- First off: Note that values for "sources" depends on the medium:
+- Only examples given were:
+  - Referral: source is referring site and
+  - Organic: source is name of search engine
+
+Tried the following combinations:
+
+1. Email + Google + (direct)
+1. [All:] googlemerchandisestore.com + Email + Google + (direct)
+1. googlemerchandisestore.com + (direct)
+1. Google + (direct)
+1. Google only
+
+**ALL OF THESE ARE WRONG!!**
+
+Seriously, wtf?!?
 
 
-- Geographical: IP Address gives continent, sub-continent, country, city of user
-  - Geographic heat map at top
-  - Click on Users pull down, above and to the left of the map to change metrics
-  - E.g., New Sessions can help identify new sources of visitors
-  - Also: table below can help, e.g., identify regions with unrealized potential:
-  - E.g., Large audience but low performance (many visits but they do not stay long)
-  - E.g., High bounce rate: consider translating ad or site
-- Behavior reports:
-  - New vs. Returning: Acquisition, Behavior, Conversions
-  - Over time, can reveal how audience is shifting
-- Technology: Browser and OS, Network
-  - High Bounce Rate: can help identify possible issues with site on certain browsers
-- Mobile: Overview and Devices
-  - Can help determine whether site is sufficiently optimized for mobile devices
+
