@@ -73,13 +73,34 @@ Question 1: **WTF:** Data in the Demo Acct is all zeros in the Acquisition -> Al
 Question 3: **WTF:** None of the suggested answers match what I am seeing ?!?
 - Correct answer is "/permissions/using-the-logo.html"
 
+
 ## 3.3 Behavior reports
 
 This section has a video.
 
 ### 3.3.1 Behavior reports overview
 
-### 3.3.2 Complete the activity
+- Click Behavior in the left nav to see how users interact on the site
+- Total Pageviews: number of times a user loaded a page on your website
+- Behavior -> Site Content -> All Pages, scroll down to data table
+  - By default shows the URI - part of the URL after the domain name
+  - Click on Page Title to see the page titles instead
+  - Measures of engagement include: Avg. time spent on page, Bounce rate
+  - Sort by these columns to find low- and high-performing pages
+- Behavior -> Site Content -> Content Drilldown report
+  - Groups pages according to directory structure
+  - Click on directory to drill down into pages within the directory
+  - Pie chart view: makes it easy to see which sections are getting the most hits
+- Behavior -> Site Content -> Landing Pages report
+  - Pages that are first viewed in a session
+- Behavior -> Site Content -> Exit Pages report
+  - Pages that are viewed last in a session
+  - Review periodically for possible issues, e.g., at checkout
+- Behavior -> Site Content -> Events reports
+  - How users interact with specific elements, e.g., download video, want to see more
+  - Covered in an advanced class
+
+### 3.3.2 Complete the activity: 3/3 (Finally, felt like I was seeing the right data!)
 
 ## 3.4 Assessment 3:
 
