@@ -123,3 +123,17 @@ This section has a video.
 ## 3.4 Assessment 3:
 
 
+- Geographical: IP Address gives continent, sub-continent, country, city of user
+  - Geographic heat map at top
+  - Click on Users pull down, above and to the left of the map to change metrics
+  - E.g., New Sessions can help identify new sources of visitors
+  - Also: table below can help, e.g., identify regions with unrealized potential:
+  - E.g., Large audience but low performance (many visits but they do not stay long)
+  - E.g., High bounce rate: consider translating ad or site
+- Behavior reports:
+  - New vs. Returning: Acquisition, Behavior, Conversions
+  - Over time, can reveal how audience is shifting
+- Technology: Browser and OS, Network
+  - High Bounce Rate: can help identify possible issues with site on certain browsers
+- Mobile: Overview and Devices
+  - Can help determine whether site is sufficiently optimized for mobile devices
