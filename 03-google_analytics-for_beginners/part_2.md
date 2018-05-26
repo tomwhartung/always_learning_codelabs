@@ -122,7 +122,5 @@ This section has a video.
 - Save reports: for viewing later
   - Includes customizations, e.g., filtering
 
-## 2.6 Assessment 2:
-
-
+## 2.6 Assessment 2: 10/10 - 100%
 
