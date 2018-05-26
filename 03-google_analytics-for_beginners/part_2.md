@@ -97,7 +97,30 @@ This section has a guided tour instead of a video.
 
 ## 2.5 How to set up dashboards and shortcuts
 
+This section has a video.
 
+### 2.5.1 Introduction to dashboards and shortcuts
+
+- Use dashboards and shortcuts to quickly find desired metrics
+- Dashboards are flexible and may include widgets and allow comparing reports side-by-side
+- Click Customization in the left nav
+  - Dashboards -> Create -> Blank Canvas or Starter Dashboard
+  - Name dashboard to save
+  - Add widget and name it
+  - Choose visualization (metric, timeline, table, etc.) for standard and real-time metrics
+  - Add metrics and filters if desired
+- Click customize dashboard (near the top, to the right) and choose layout
+  - Can drag and drop widgets
+  - Mouse over widget -> reveals pencil (Edit) icon to edit data and X (Delete) icon to delete widget
+- Private vs. shared dashboards
+  - Private: 20 per user
+  - Shared: 50 per view
+  - Shared: visible to anyone with access to the view
+  - Shared: changes made by others are visible only to that individual (they cannot change your dashboard)
+- To Share: click Share at top to share a link (does not include data) or add it to the Solutions Gallery
+  - Solutions Gallery visible to all Analytics users.
+- Save reports: for viewing later
+  - Includes customizations, e.g., filtering
 
 ## 2.6 Assessment 2:
 
