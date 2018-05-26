@@ -22,17 +22,64 @@ This section has a video.
 - To enable:
   - Admin -> Property tab -> Property Settings -> Turn on "Enable Demographics and Interest Reports"
 
+### 3.1.2 Complete the activity: 2/3 (Oops, did not notice questions were about a specific date range)
+
+- Their "correct" answer to question 2 seems wrong to me!
+- None of the suggested answers to question 3 is right, so I picked the closest
+
+**Note:** did not notice that we were supposed to look at a specific date range, i.e.:
+
+- "Use the dates of Aug 1 2015 - Aug 31 2015 to answer the following questions:"
+
 ## 3.2 Acquisition reports
 
 This section has a video.
 
 ### 3.2.1 Acquisition reports overview
 
+- Click Acquisition in the left nav to compare performance of different marketing channels
+  - Discover which sources give the highest quality traffic and conversions
+- Tracking code identifies: traffic medium, source, and marketing campaign name
+- Traffic Mediums [sic]:
+  - Organic: from non-paid search (google or other search engine)
+  - CPC: cost per click - from paid search campaign
+  - Referral: from link on another site (NOT a search engine)
+  - Email: from email marketing campaign
+  - (none): from "Direct" source - user typed url into browser address bar
+- Source: more information, for example:
+  - Referral: source is referring site
+  - Organic: source is name of search engine
+- Demo Account -> Acquisition -> All Traffic -> Source/Medium report for August, 2015 (no data??)
+  - More users does not imply the best traffic
+  - Traffic should be high quality: users engage or complete a conversion
+  - Bounce rate: can help measure quality of traffic
+  - Comparison view -> Bounce Rate metric, compared to site average
+- Filter for traffic from google
+  - Notice that traffic from google search has lower bounce rate -> higher quality traffic
+- Demo Account -> Acquisition -> All Traffic -> Channels report
+  - Lists the channels, Direct, Organic search, Referral, etc.
+  - Click into channel to see more specific information
+  - Can create custom channel groupings in Google Analytics (covered in advanced class)
+- Demo Account -> Acquisition -> All Traffic -> Referrals report
+  - Click into the referring site to see which pages have the link to my site
+  - Add secondary dimension "landing page" (type into text box) to see what page they are coming to
+
+### 3.2.2 Complete the activity
+
+Question 1: **WTF:** Data in the Demo Acct is all zeros in the Acquisition -> All Traffic -> Source/Medium report?!?
+- Even for extended date range (Aug. 1, 2015 - May 25, 2018) ?!?
+- Correct answer is "youtube.com"
+
+Question 3: **WTF:** None of the suggested answers match what I am seeing ?!?
+- Correct answer is "/permissions/using-the-logo.html"
+
 ## 3.3 Behavior reports
 
 This section has a video.
 
 ### 3.3.1 Behavior reports overview
+
+### 3.3.2 Complete the activity
 
 ## 3.4 Assessment 3:
 
