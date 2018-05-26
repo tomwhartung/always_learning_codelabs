@@ -22,14 +22,21 @@ This section has a video.
 - To enable:
   - Admin -> Property tab -> Property Settings -> Turn on "Enable Demographics and Interest Reports"
 
-### 3.1.2 Complete the activity: 2/3 (Oops, did not notice questions were about a specific date range)
+### 3.1.2 Complete the activity:
 
+### 3.1.2.1 First try (WTF?!?)
+
+- 2/3 (Oops, did not notice questions were about a specific date range)
 - Their "correct" answer to question 2 seems wrong to me!
 - None of the suggested answers to question 3 is right, so I picked the closest
 
 **Note:** did not notice that we were supposed to look at a specific date range, i.e.:
 
 - "Use the dates of Aug 1 2015 - Aug 31 2015 to answer the following questions:"
+
+### 3.1.2.2 Second try (After feeling ok about the "Complete the activity" exercise in the third section)
+
+- 3/3: Much easier now that I have the date range set correctly!
 
 ## 3.2 Acquisition reports
 
@@ -66,6 +73,8 @@ This section has a video.
 
 ### 3.2.2 Complete the activity
 
+### 3.2.2.1 First try (WTF?!?)
+
 Question 1: **WTF:** Data in the Demo Acct is all zeros in the Acquisition -> All Traffic -> Source/Medium report?!?
 - Even for extended date range (Aug. 1, 2015 - May 25, 2018) ?!?
 - Correct answer is "youtube.com"
@@ -73,6 +82,15 @@ Question 1: **WTF:** Data in the Demo Acct is all zeros in the Acquisition -> Al
 Question 3: **WTF:** None of the suggested answers match what I am seeing ?!?
 - Correct answer is "/permissions/using-the-logo.html"
 
+### 3.2.2.2 Second try (After feeling ok about the "Complete the activity" exercise in the third section)
+
+Question 1: Filter by "referral" and sort by New Users (User values are all zeroes?!?)
+Question 2: Sort by New Users
+Question 3:
+1. Sort by Sessions
+1. **NOTE:** Answer is not necessarily at the top, only **above** the other options?!?
+1. Primary dimension: Source, filter by "google.com" - Bzzt.
+1. Tried several things, not seeing any of the options listed!!
 
 ## 3.3 Behavior reports
 
