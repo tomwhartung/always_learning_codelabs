@@ -23,7 +23,9 @@ For a list of TODOs, see `TODO.md` in this directory.
 
 ## Assessment 2: 10/10 - 100%
 
-## Assessment 3:
+## Assessment 3: 10/10 - 100%
+
+- Note: It took 12 tries to get Question 5 correct.
 
 ## Assessment 4:
 
