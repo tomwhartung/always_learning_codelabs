@@ -137,7 +137,7 @@ This section has a video.
 
 ### 3.3.2 Complete the activity: 3/3 (Finally, felt like I was seeing the right data!)
 
-## 3.4 Assessment 3: 9/10 90%
+## 3.4 Assessment 3: 10/10 100%
 
 It took 12 tries to figure out answer to Question 5!!!
 
