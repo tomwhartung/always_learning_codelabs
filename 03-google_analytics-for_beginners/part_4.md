@@ -32,8 +32,27 @@ Notes are based on the transcript: https://support.google.com/analytics/answer/6
 ## 4.2 Tracking campaigns with the URL Builder
 
 This section has a video.
+Notes are based on the transcript: https://support.google.com/analytics/answer/6385286?hl=en
 
 ### 4.2.1 Tracking campaigns with the URL Builder
+
+- URL Builder: https://ga-dev-tools.appspot.com/campaign-url-builder/
+- Fill in URL of site
+- Required fields: campaign, source, and medium
+- Optional fields: term, content, and name
+- All names: case-sensitive, spaces replaced with '_',
+- Be sure to use consistent medium names, e.g., "display" for banner ads, "email" for email
+- Click "Generate URL" at the bottom
+- Copy-and-paste URL
+- May be best to use a spreadsheet for complicated campaigns
+- Test each URL in an incognito window before deploying and see results in under the Real Time option
+  - Acquisition -> Campaigns -> All Campaigns
+  - Use filter to find campaign (type campaign name into filter/search bar)
+  - Click on campaign name to see source and medium data
+  - To see other tags, add "ad content" as a secondary dimension
+- Analyzing this data is covered in an advanced class
+
+### 4.2.2 Complete the activity: 3/3
 
 ## 4.3 Basic Campaign and Conversion Tracking
 
