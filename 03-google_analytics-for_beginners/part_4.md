@@ -113,6 +113,47 @@ Notes are based on the transcript: https://support.google.com/analytics/answer/6
 
 ### 4.4.1 How to use Analytics with AdWords
 
+- AdWords: Google's advertising system
+- Google Store bids on keywords such as "Google t-shirt" and "Google clothing"
+- Linking Google Analytics with Adwords enables:
+  - viewing AdWords click and cost data along with site engagement data in Google Analytics
+  - creating remarketing lists in Analytics for use in AdWords
+  - importing Analytics goals and transactions into AdWords as conversions
+  - viewing Analytics site engagement data in AdWords
+- Same email account must be an administrator of both accounts
+- Process:
+  - Analytics -> Select account and property -> Property section -> AdWords linking
+  - Click on New link group -> AdWords accounts automatically appear -> Pick one -> Continue
+  - Fill in Link Group Title
+  - Select view -> Select "Link accounts"
+- Auto-tagging: automatically add a special campaign tag to your AdWords URLs
+  - Required to get specific AdWords dimensions into Google Analytics
+- Available AdWords dimensions:
+  - Query match type: how an AdWords keyword is matched to a user search query
+  - Ad Group: ad group associated with the keyword or creative
+  - Destination URL; AdWords destination URL
+  - Ad Format: whether is a text ad, display ad, or video
+  - Ad Distribution Network: network used to deliver your ad
+  - Placement Domain: domain where your ad was displayed
+  - AdWords Customer ID: unique ID of your AdWords account
+- This data allows fine-tuning keywords
+- Acquisitions reports -> Campaigns-> All Campaigns
+  - Campaign Names are from AdWords
+  - Can show data for desktop, mobile, and tablets
+  - CPC: Average cost per click
+- Behavior reports: see user engagement
+- Conversions reports: conversion rate and goal completions
+- Acquisitions -> AdWords -> Keywords report
+  - Look for keywords with a high bounce rate - find a better synonym
+  - Look for keywords with a high conversion rate - increase bid
+  - Examine using Device Category as a second dimension to see if different words are better on different devices
+- Acquisitions -> AdWords -> Bid adjustments report
+  - Automatically adjust bid based on device, location, or time of day
+  - E.g., increase bids during a sale, or when a mobile device is close to a business location
+  - Remarketing: covered in an advanced class
+
+### 4.4.2 Complete the activity: 3/3
+
 ## 4.5 Basic Campaign and Conversion Tracking
 
 This section has a video.
