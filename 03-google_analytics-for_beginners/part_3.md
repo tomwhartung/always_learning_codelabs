@@ -139,7 +139,7 @@ This section has a video.
 
 ## 3.4 Assessment 3: 9/10 90%
 
-After five tries, still unable to figure out answer to Question 5:
+It took 12 tries to figure out answer to Question 5!!!
 
 - 'Which “sources” are available in Google Analytics?'
 - First off: Note that values for "sources" depends on the medium:
@@ -154,10 +154,17 @@ Tried the following combinations:
 1. googlemerchandisestore.com + (direct)
 1. Google + (direct)
 1. Google only
+1. Email + Google
+1. Email + (direct)
+1. googlemerchandisestore.com + Email
+1. googlemerchandisestore.com + Email + Google
+1. googlemerchandisestore.com + Google
+1. googlemerchandisestore.com only
+1. **googlemerchandisestore.com + Google + (direct)** Ding ding ding ding ding!!
 
-**ALL OF THESE ARE WRONG!!**
+**Notes:**
 
-Seriously, wtf?!?
-
-
+- Email is a medium, not a source
+- Google is a source for medium "cpc"
+- That leaves the other two...
 
