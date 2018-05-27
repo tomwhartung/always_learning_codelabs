@@ -54,7 +54,7 @@ Notes are based on the transcript: https://support.google.com/analytics/answer/6
 
 ### 4.2.2 Complete the activity: 3/3
 
-## 4.3 Basic Campaign and Conversion Tracking
+## 4.3 Using Goals to measure business objectives
 
 This section has a video.
 Notes are based on the transcript: https://support.google.com/analytics/answer/6383000?hl=en
@@ -69,7 +69,7 @@ Notes are based on the transcript: https://support.google.com/analytics/answer/6
 - Goal Funnel: visualization of the steps needed to accomplish a goal
   - Can optionally set up a goal funnel when creating Google Analytics goals
   - Helps identify where people are dropping off in the process
-- Required: must be an administrator on the view
+- **Note:** must be an administrator on the view
 - Maximum of 20 goals per view
 - Define business goals, use them to create Google Analytics goals
 - Example goal setup: user reaches Google Store chekout confirmation page
@@ -116,11 +116,11 @@ Notes are based on the transcript: https://support.google.com/analytics/answer/6
 - AdWords: Google's advertising system
 - Google Store bids on keywords such as "Google t-shirt" and "Google clothing"
 - Linking Google Analytics with Adwords enables:
-  - viewing AdWords click and cost data along with site engagement data in Google Analytics
-  - creating remarketing lists in Analytics for use in AdWords
-  - importing Analytics goals and transactions into AdWords as conversions
-  - viewing Analytics site engagement data in AdWords
-- Same email account must be an administrator of both accounts
+  - Viewing AdWords click and cost data along with site engagement data in Google Analytics
+  - Creating remarketing lists in Analytics for use in AdWords
+  - Importing Analytics goals and transactions into AdWords as conversions
+  - Viewing Analytics site engagement data in AdWords
+- **Note:** Same email account must be an administrator of both accounts
 - Process:
   - Analytics -> Select account and property -> Property section -> AdWords linking
   - Click on New link group -> AdWords accounts automatically appear -> Pick one -> Continue
@@ -131,7 +131,7 @@ Notes are based on the transcript: https://support.google.com/analytics/answer/6
 - Available AdWords dimensions:
   - Query match type: how an AdWords keyword is matched to a user search query
   - Ad Group: ad group associated with the keyword or creative
-  - Destination URL; AdWords destination URL
+  - Destination URL: AdWords destination URL
   - Ad Format: whether is a text ad, display ad, or video
   - Ad Distribution Network: network used to deliver your ad
   - Placement Domain: domain where your ad was displayed
@@ -157,9 +157,40 @@ Notes are based on the transcript: https://support.google.com/analytics/answer/6
 ## 4.5 Basic Campaign and Conversion Tracking
 
 This section has a video.
+Notes are based on the transcript: https://support.google.com/analytics/answer/6382986?hl=en
 
 ### 4.5.1 Google Analytics for Beginners Wrap-Up
 
-## 4.6 Assessment 4
+Topics covered:
+
+- Benefits of digital analysis for businesses
+- How Google Analytics works
+- How to set up an account, install the tracking code, and set up views of data
+- How to read overview and full reports
+- How to set up dashboards and shortcuts
+- How to understand Audience, Acquisition, and Behavior reports
+- How to set up campaign tracking, goals, and measure conversions
+- How to link AdWords and Analytics accounts
+
+How to handle some typical use cases:
+
+- Top performing pages for new users:
+  - Behavior -> Site Content -> All Pages
+  - Add secondary dimension of User Type
+- Ineffective landing pages:
+  - Behavior -> Site Content -> Landing Pages
+  - Sort by Bounce Rate
+  - If running campaigns: add secondary dimension of campaign or source/medium
+- Understanding how device type affects results
+  - Acquisition -> Campaigns -> All Campaigns
+  - Add secondary dimension of Device Category
+- Optimizing campaigns for specific localities
+  - Audience -> Geo -> Location
+  - Conversions pull-down (on the right side of the data table's heading) -> select goal
+  - Sort by Goal Conversion Rate
+
+"Happy analyzing!"
+
+## 4.6 Assessment 4: 10/10 (After four tries)
 
 
