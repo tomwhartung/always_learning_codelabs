@@ -86,8 +86,25 @@ Notes are based on the transcript: https://support.google.com/analytics/answer/6
     - Duration: of the user's session
     - Pages or screens: number of pages user views per session
     - Events: specific actions, covered in advanced class
+  - Destination: only goal that supports a funnel
+  - Destination URL: of "Order Complete" confirmation page
+    - Do NOT use entire URL, use regex: "/SubmitOrder"
+  - Goal Value (optional): toggle to "On" and type in amount; use only if a constant value makes sense
+    - Leave this off for now
+  - Goal Funnel: Switch to "On" to enable adding steps
+    - Each step represents an action
+    - Find a unique part in the URL for each action
+    - Set Required to "Yes" as appropriate
+  - Save -> goal appears in the list
+- To see Goal metrics:
+  - Reporting view -> Conversions -> Goals -> Overview
+  - Goal data: also visible in Audience and Acquisition reports
+- Funnel visualization:
+  - Conversions -> Funnel Visualization report
+  - Look for sudden drop-off in users, might be indicative of an issue
+- Analytics Solutions Gallery offers many Goals built by other users
 
-
+### 4.3.2 Complete the activity: 3/3 (on second try)
 
 ## 4.4 Basic Campaign and Conversion Tracking
 
