@@ -57,12 +57,42 @@ Notes are based on the transcript: https://support.google.com/analytics/answer/6
 ## 4.3 Basic Campaign and Conversion Tracking
 
 This section has a video.
+Notes are based on the transcript: https://support.google.com/analytics/answer/6383000?hl=en
 
 ### 4.3.1 How to set up Goals in Analytics
+
+- Business goals: actions that you want users to take on the site
+  - Conversion: signing up for a newsletter, purchasing a product, watching a video, downloading a pdf, etc.
+- Google Analytics goals: created in Google Analytics
+  - Tracks conversions and conversion-related metrics
+  - Conversion rate: Percentage of users who convert
+- Goal Funnel: visualization of the steps needed to accomplish a goal
+  - Can optionally set up a goal funnel when creating Google Analytics goals
+  - Helps identify where people are dropping off in the process
+- Required: must be an administrator on the view
+- Maximum of 20 goals per view
+- Define business goals, use them to create Google Analytics goals
+- Example goal setup: user reaches Google Store chekout confirmation page
+  - Does not track revenue, only checkout confirmations
+  - Funnel visualization: to learn where users are dropping out of the process
+- Goal Setup: Steps
+  - Admin -> Views -> Goals
+  - New Goal: May look different for different business types
+  - Choose template: Buy Merchandise
+  - Name goal: "Checkout complete"
+  - Goal slot ID: numbered from 1 to 20, default is next available slot
+  - Set the Goal type:
+    - Destination: user reaches a specific page
+    - Duration: of the user's session
+    - Pages or screens: number of pages user views per session
+    - Events: specific actions, covered in advanced class
+
+
 
 ## 4.4 Basic Campaign and Conversion Tracking
 
 This section has a video.
+Notes are based on the transcript: https://support.google.com/analytics/answer/6382975?hl=en
 
 ### 4.4.1 How to use Analytics with AdWords
 
